@@ -2,13 +2,13 @@ import React from "react";
 import babyNames from "./babyNames.json";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header"></header>
+//     </div>
+//   );
+// }
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
